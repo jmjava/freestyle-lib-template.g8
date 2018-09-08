@@ -44,7 +44,7 @@ sbt orgScriptCI
 In the case you need to change this plugin, the easiest way to test it locally is:
 
 ```
-sbt new file:///the/path/to/freestyle-rpc-client-template.g8
+sbt new file:///the/path/to/freestyle-lib-template.g8
 ```
 
 
