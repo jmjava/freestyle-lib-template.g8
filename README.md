@@ -1,12 +1,12 @@
 ## Note: this is based on https://github.com/frees-io/freestyle-template.g8
-This is a Giter8 template for Freestyle Client projects.
+This is a Giter8 template for Freestyle Lib projects.
 
 ## Creating New Freestyle Project
 
 1. Create a new project from Freestyle g8 template:
 
 ```scala
-sbt new jmjava/freestyle-rpc-client-template.g8
+sbt new jmjava/freestyle-lib-template.g8
 ```
 
 2. Fill the required information (you can see an example below):
