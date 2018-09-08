@@ -2,8 +2,8 @@ package $package$
 
 import cats.implicits._
 
-import freestyle._
-import freestyle.implicits._
+import freestyle.free._
+import freestyle.free.implicits._
 import scala.concurrent.Future
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global

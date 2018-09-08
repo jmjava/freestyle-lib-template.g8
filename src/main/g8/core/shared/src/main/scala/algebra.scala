@@ -1,7 +1,7 @@
 package $package$
 
 import cats.Monad
-import freestyle._
+import freestyle.free._
 
 object algebra {
 
