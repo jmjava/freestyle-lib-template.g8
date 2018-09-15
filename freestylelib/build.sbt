@@ -2,7 +2,7 @@ addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M10" cross CrossVersion.
 
 lazy val root = project
   .in(file("."))
-  .settings(name := "$project$")
+  .settings(name := "freestyle-lib")
   .settings(noPublishSettings: _*)
   .settings(scalaMetaSettings: _*)
   .settings(libraryDependencies ++= commonDeps ++ freestyleCoreDeps())
@@ -12,7 +12,7 @@ lazy val root = project
 
 lazy val core = crossProject
   .in(file("core"))
-  .settings(moduleName := "core-$project$")
+  .settings(moduleName := "core-freestyle-lib")
   .settings(scalaMetaSettings: _*)
   .crossDepSettings(commonDeps ++ freestyleCoreDeps(): _*)
   .jsSettings(sharedJsSettings: _*)
