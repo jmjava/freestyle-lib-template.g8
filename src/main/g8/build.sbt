@@ -6,6 +6,9 @@ lazy val root = project
   .settings(scalaMetaSettings: _*)
   .settings(libraryDependencies ++= commonDeps ++ freestyleCoreDeps())
   .settings(libraryDependencies += "io.frees" %% "frees-core" % "0.8.2")
+  .settings(libraryDependencies += "io.frees" %% "frees-logging" % "0.8.2")
+  .settings(libraryDependencies += "io.frees" %% "frees-doobie" % "0.8.2")
+  .settings(libraryDependencies += "io.frees" %% "frees-effects" % "0.8.2")
   .dependsOn(coreJVM)
   .aggregate(coreJS, coreJVM)
 
