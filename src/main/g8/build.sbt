@@ -13,7 +13,6 @@ lazy val core = crossProject
   .in(file("core"))
   .settings(moduleName := "core-$project$")
   .settings(scalaMetaSettings: _*)
-  .settings(noPublishSettings: _*)
   .crossDepSettings(commonDeps ++ freestyleCoreDeps(): _*)
   .jsSettings(sharedJsSettings: _*)
 
