@@ -30,7 +30,7 @@ sbt new file:///the/path/to/freestyle-lib-template.g8
 ##### Now compile and package the project
 
 ```
-/git/freestyle-lib-template.g8/freestylelib/ sbt compile package
+/git/freestyle-lib-template.g8/freestylelib/ sbt publishLocal
 
 ```
 
